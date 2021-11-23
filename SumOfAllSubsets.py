@@ -19,6 +19,7 @@ def main():
         arr = list(map(int, input().strip().split()))
         s = sumOfSubsets(arr, n, 0, [])
         print(s)
-    
+
+# Solved    
 if __name__ == '__main__':
     main()
